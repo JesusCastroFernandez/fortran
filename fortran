@@ -1,0 +1,13 @@
+program calcula_area_circulo
+    implicit none
+    real :: radio, area
+    real, parameter :: PI = 3.1415926535897932384626433832795
+    
+    write(*,*) 'Introduce el radio del círculo:'
+    read(*,*) radio
+    
+    area = PI * radio**2
+    
+    write(*,*) 'El área del círculo es:', area
+    
+end program calcula_area_circulo
